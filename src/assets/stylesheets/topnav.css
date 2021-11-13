@@ -1,0 +1,134 @@
+.wrap_out {
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  width: 0%;
+  height: 100%;
+  background: linear-gradient(45deg, rgb(0, 69, 87), rgba(67, 0, 88, 0.479));
+  transition: 0.8s ease-in-out;
+  overflow: hidden;
+  z-index: 98;
+}
+
+.wrap_in {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 0;
+  height: 0;
+  background: linear-gradient(rgba(2, 126, 126, 0.658), rgb(79, 61, 128));
+  overflow: hidden;
+  border-radius: 50%;
+  transition: 0.5s ease-in-out;
+  color: white;
+}
+
+.wrap_content {
+  position: absolute;
+  top: 50px;
+  left: 100px;
+  width: 100%;
+  opacity: 1;
+  z-index: 99;
+  display: none;
+}
+.navlink {
+  margin-left: -100%;
+  cursor: pointer;
+}
+.navlink:nth-child(1) {
+  transition: 0.3s ease-out;
+}
+.navlink:nth-child(2) {
+  transition: 0.4s ease-out;
+}
+.navlink:nth-child(3) {
+  transition: 0.5s ease-out;
+}
+.navlink:nth-child(4) {
+  transition: 0.6s ease-out;
+}
+.navlink:nth-child(5) {
+  transition: 0.7s ease-out;
+}
+
+.menu_button {
+  position: fixed;
+  top: 30px;
+  right: 30px;
+  z-index: 100;
+  background: none;
+  border: none;
+  font-size: 30px;
+  /* background: rgb(31, 31, 31); */
+}
+
+.bar1,
+.bar2,
+.bar3 {
+  width: 35px;
+  height: 4px;
+  background-color: rgb(255, 255, 255);
+  margin: 6px 0;
+  transition: 1s;
+}
+.bar2 {
+  width: 25px;
+}
+
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {
+  opacity: 0;
+}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+
+.letter {
+  position: relative;
+  display: inline-block;
+  color: rgb(255, 255, 255);
+  font-size: 50px;
+  font-weight: 900;
+  transition: 0.5s ease-out;
+}
+
+.letter:hover {
+  color: rgb(166, 255, 0);
+  animation: compress 0.5s 1;
+}
+
+@keyframes compress {
+  25% {
+    -webkit-transform: scale(1.1, 0.7); /* Chrome, Safari, Opera */
+    transform: scale(1.1, 0.7);
+  }
+  50% {
+    -webkit-transform: scale(1, 1); /* Chrome, Safari, Opera */
+    transform: scale(1, 1);
+  }
+  70% {
+    -webkit-transform: scale(1, 0.8); /* Chrome, Safari, Opera */
+    transform: scale(1, 0.8);
+  }
+  100% {
+    -webkit-transform: scale(1, 1); /* Chrome, Safari, Opera */
+    transform: scale(1, 1);
+  }
+}
+.brick {
+  transform-origin: bottom;
+  transition: transform 0.2s;
+}
+
+@media screen and (max-width: 767px) {
+  .wrap_content {
+    left: 30px;
+  }
+}
