@@ -1,7 +1,11 @@
+import './assets/stylesheets/app.css';
+import Topnav from './components/Topnav';
+
 const App = () => {
     return (
-        <div>
-            App
+        <div className="container">
+            <Topnav/>
+
         </div>
     )
 }

@@ -1,7 +1,7 @@
 import React from "react";
 import "../assets/stylesheets/topnav.css";
 
-export const Topnav = () => {
+const Topnav = () => {
   var status = false;
   const openMenu = () => {
     document.querySelector("#menu_btn").classList.toggle("change");
@@ -51,9 +51,9 @@ export const Topnav = () => {
         id="menu_btn"
         className="menu_button"
       >
-        <div class="bar1"></div>
-        <div class="bar2"></div>
-        <div class="bar3"></div>
+        <div className="bar1"></div>
+        <div className="bar2"></div>
+        <div className="bar3"></div>
       </button>
       <div className="wrap_out">
         <div className="wrap_in"></div>
@@ -102,3 +102,5 @@ export const Topnav = () => {
     </div>
   );
 };
+
+export default Topnav
