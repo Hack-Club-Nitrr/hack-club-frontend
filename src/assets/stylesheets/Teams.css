@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Nunito:ital,wght@1,200&display=swap");
+
+.team-heading {
+  padding-top: 50px;
+  padding-bottom: 0px;
+  color: white;
+  text-align: center;
+}
+.team-heading h1 {
+  text-transform: uppercase;
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+}
+.team-heading p {
+  font-family: "Comfortaa";
+}
+
+.row {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  justify-items: center;
+  grid-gap: 10px 40px;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 60px;
+  outline: 0;
+  overflow-x: hidden;
+}
+.single-team {
+  height: 300px;
+  padding-bottom: 70px;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  box-shadow: 5px 5px 15px #000;
+}
+.team-img {
+  position: relative;
+  z-index: 5;
+  overflow: hidden;
+}
+.team-img img {
+  width: 250px;
+  height: 300px;
+  transition: 0.3s;
+}
+.single-team:hover .team-img img {
+  transform: scale(1.1);
+}
+.team-content {
+  height: 40px;
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  overflow: hidden;
+  bottom: 0;
+  transition: all 0.4s;
+  background: #000000e1;
+  z-index: 5;
+}
+.single-team:hover .team-content {
+  height: 120px;
+}
+.team-info {
+  font-family: "Nunito", sans-serif;
+  padding: 5px 20px 5px 20px;
+  transition: all 0.5s;
+}
+.single-team:hover .team-content {
+  background: #000;
+}
+.single-team .team-content .team-info h3 {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 16px;
+  margin: 5px;
+}
+.single-team:hover .team-info h3 {
+  color: tomato;
+}
+.team-info p {
+  margin-top: 15px;
+  color: #fff;
+}
+.single-team-text p {
+  margin-top: 5px;
+}
+.team-icon {
+  color: #fff;
+  padding: 5px 10px 5px;
+  display: flex;
+  justify-content: space-around;
+}
+.team-icon i {
+  border: 2px solid white;
+  padding: 6px;
+  border-radius: 18px;
+}
+.team-icon i:hover {
+  color: turquoise;
+  border-color: cyan;
+  cursor: pointer;
+}

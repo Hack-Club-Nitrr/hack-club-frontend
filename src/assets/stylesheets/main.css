@@ -1,26 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital@1&family=Shippori+Antique+B1&display=swap');
-*{
-  margin: 0;
-  padding: 0;
+
+.main-page{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
+
 .title {
   font-family: 'Shippori Antique B1', sans-serif;
   /* text-align: center; */
   color: #FFF;
+
   /* display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center; */
-  height: 100vh;
-  letter-spacing: 1px;
-  float: left;
-  margin: 150px 0 0 0;
+  justify-content: center; 
+   margin: 150px 0 0 0; */
+  width: 25%;
 }
 
-.title-img{
-  /* margin: 10% 0 0 20%; */
-}
-h1 {
+h1 ,h3{
     
   background-image: url(https://media.giphy.com/media/3otO6NFBIAFg2vPZuM/giphy.gif);
   background-size: cover;
@@ -28,21 +28,14 @@ h1 {
   -moz-background-clip: text;
   -webkit-background-clip: text;
   text-transform: uppercase;
-  font-size: 120px;
+  font-size: 7vw;
   line-height: 1.1;
   
 }
-h3{
-  background-image: url(https://media.giphy.com/media/3otO6NFBIAFg2vPZuM/giphy.gif);
-  background-size: cover;
-  color: transparent;
-  -moz-background-clip: text;
-  -webkit-background-clip: text;
-  text-transform: uppercase;
-  font-size: 80px;
-  line-height: 1.1;
-}
 
+h3{
+  font-size: 4vw;
+}
 
 /* styling my button */
 
