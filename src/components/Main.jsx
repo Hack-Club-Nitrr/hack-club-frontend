@@ -10,11 +10,11 @@ const Main = () => {
             <div className="title">
               <h1>Hack</h1>
               <h3>Club</h3>
+              <h5>NITRR</h5>
               <br />
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ipiscing elit, sed do eiusmod tempor </p>
-             
-            </div> 
-            <img className ="title-img"src = {Image} alt = "intro" width = "50%"/>
+            </div>
+            <img className = "title-img" src = {Image} alt = "intro" width = "50%"/>
         </div>
     )
 }

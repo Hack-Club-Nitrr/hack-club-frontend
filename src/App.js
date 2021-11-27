@@ -1,14 +1,14 @@
 
-export default App
+
 import "./assets/stylesheets/app.css";
 import Topnav from "./components/Topnav";
 import Teams from "./components/Teams";
-
+import Main from "./components/Main";
 const App = () => {
   return (
     <div className="container">
       <Topnav />
-      <Main/>
+      <Main />
       <Teams />
     </div>
   );
