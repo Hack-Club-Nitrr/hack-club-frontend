@@ -16,7 +16,7 @@ const About = () => {
             <div className ="about-section">
                 <h1 className = "about-problem">
                     <span className = "typewriter">
-                        We at .Hack Club ITER! 🚀
+                        We at Hack Club ITER! 🚀
                     </span>
                 </h1>
                 <p className = "about-statement">
