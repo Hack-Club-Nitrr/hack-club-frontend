@@ -43,7 +43,7 @@ const Topnav = () => {
     }
   };
   return (
-    <div>
+    <div style={{ overflowX: "hidden" }}>
       <button
         onClick={() => {
           openMenu();
@@ -103,4 +103,4 @@ const Topnav = () => {
   );
 };
 
-export default Topnav
+export default Topnav;
