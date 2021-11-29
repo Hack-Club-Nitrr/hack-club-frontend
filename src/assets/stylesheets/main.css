@@ -9,7 +9,7 @@
 .title {
   font-family: 'Shippori Antique B1', sans-serif;
   color: #FFF;
-  width: 25%;
+  width: 45%;
 }
 
 h1 ,h3, h5{
@@ -19,7 +19,7 @@ h1 ,h3, h5{
   -moz-background-clip: text;
   -webkit-background-clip: text;
   text-transform: uppercase;
-  font-size: 6vw;
+  font-size: 7vw;
   line-height: 1;
 }
 
