@@ -4,7 +4,7 @@ import Teams from "./components/Teams";
 import Main from "./components/Main";
 import About from "./components/About";
 import Discord from "./components/Discord";
-
+import Footer from "./components/Footer";
 const App = () => {
   return (
     <div className="container">
@@ -13,6 +13,7 @@ const App = () => {
       <About />
       <Teams />
       <Discord />
+      <Footer />
     </div>
   );
 };

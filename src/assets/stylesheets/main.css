@@ -10,7 +10,8 @@
 .title {
   font-family: "Shippori Antique B1", sans-serif;
   color: #fff;
-  width: 25%;
+   margin-left: 2%;
+   width: 38%;
 }
 
 .hack,
@@ -31,11 +32,12 @@
   font-size: 4vw;
 }
 .nitrr {
-  font-size: 2vw;
-  line-height: 1.5;
+  font-size: 4vw;
+  line-height: 1.2;
 }
 .about-main {
   font-family: "Comfortaa";
+  font-size: smaller;
 }
 
 @media only screen and (max-width: 768px) {
@@ -62,5 +64,9 @@
   }
   .title-img {
     width: 100%;
+  }
+  .about-main {
+    font-family: "Comfortaa";
+    font-size: xx-small;
   }
 }
