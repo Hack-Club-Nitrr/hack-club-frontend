@@ -3,6 +3,9 @@
   padding: 0;
   margin: 0;
 }
+html{
+  scroll-behavior: smooth;
+}
 .container {
   overflow-x: hidden;
   min-width: 100vw;
