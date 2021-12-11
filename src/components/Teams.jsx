@@ -2,7 +2,7 @@ import "../assets/stylesheets/Teams.css";
 
 const Teams = () => {
   return (
-    <div className="team-area">
+    <div className="team-area" id = "team">
       <div className="container">
         <div className="team-heading">
           <h1>Our Team</h1>

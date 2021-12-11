@@ -1,41 +1,47 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital@1&family=Shippori+Antique+B1&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital@1&family=Shippori+Antique+B1&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap");
-.main-page{
+.main-page {
+  overflow-x:hidden;
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
 .title {
-  font-family: 'Shippori Antique B1', sans-serif;
-  color: #FFF;
-  width: 25%;
+  font-family: "Shippori Antique B1", sans-serif;
+  color: #fff;
+   margin-left: 2%;
+   width: 38%;
 }
 
-h1 ,h3, h5{
-  /* background-image: url(https://media.giphy.com/media/3otO6NFBIAFg2vPZuM/giphy.gif);
+.hack,
+.club,
+.nitrr {
+  background-image: url(https://media.giphy.com/media/3otO6NFBIAFg2vPZuM/giphy.gif);
   background-size: cover;
   color: transparent;
+  background-clip: text;
   -moz-background-clip: text;
   -webkit-background-clip: text;
   text-transform: uppercase;
   font-size: 6vw;
-  line-height: 1; */
+  line-height: 1;
 }
 
-h3{
+.club {
   font-size: 4vw;
 }
-h5{
-  font-size: 2vw;
-  line-height: 1.5;
+.nitrr {
+  font-size: 4vw;
+  line-height: 1.2;
 }
-p{
+.about-main {
   font-family: "Comfortaa";
+  font-size: smaller;
 }
 
 @media only screen and (max-width: 768px) {
-  .main-page{
+  .main-page {
     height: 100vh;
     display: flex;
     align-items: center;
@@ -43,20 +49,24 @@ p{
     text-align: center;
     justify-content: space-evenly;
   }
-  .title{
+  .title {
     width: 75%;
   }
-  h1{
+  .hack {
     font-size: 9vw;
   }
-  h3{
+  .club {
     font-size: 6vw;
   }
-  h5{
+  .nitrr {
     font-size: 4vw;
     line-height: 1.5;
   }
-  .title-img{
+  .title-img {
     width: 100%;
+  }
+  .about-main {
+    font-family: "Comfortaa";
+    font-size: xx-small;
   }
 }

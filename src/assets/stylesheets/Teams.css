@@ -1,6 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Nunito:ital,wght@1,200&display=swap");
 
+.team-area{
+  overflow-x:hidden;
+}
 .team-heading {
   padding-top: 50px;
   padding-bottom: 0px;
