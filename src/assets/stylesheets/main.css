@@ -13,14 +13,14 @@
 }
 
 h1 ,h3, h5{
-  background-image: url(https://media.giphy.com/media/3otO6NFBIAFg2vPZuM/giphy.gif);
+  /* background-image: url(https://media.giphy.com/media/3otO6NFBIAFg2vPZuM/giphy.gif);
   background-size: cover;
   color: transparent;
   -moz-background-clip: text;
   -webkit-background-clip: text;
   text-transform: uppercase;
   font-size: 6vw;
-  line-height: 1;
+  line-height: 1; */
 }
 
 h3{
