@@ -4,7 +4,7 @@ const About = () => {
     <div className="about">
       <div className="about-section">
         <h1 className="about-problem">
-          <span className="typewriter">What is a Hack Club?</span>
+          <span className="typewriter typewriter--1">What is a Hack Club?</span>
         </h1>
         <p className="about-statement">
           The Hack Club is a non-profit global network of young makers and
@@ -15,7 +15,7 @@ const About = () => {
       </div>
       <div className="about-section">
         <h1 className="about-problem">
-          <span className="typewriter">We at Hack Club NITRR! 🚀</span>
+          <span className="typewriter typewriter--2">We at Hack Club NITRR! 🚀</span>
         </h1>
         <p className="about-statement">
           Hack Club NITRR is a community where students from different branches
