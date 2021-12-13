@@ -4,7 +4,7 @@
   font-size: 30px;
   display: flex;
   padding: 3rem;
-  background: linear-gradient(to right top, #7b46ff, #6554ff);
+  background: linear-gradient(to bottom, #231e23, #e0deef);
   font-family: Comfortaa;
   color: #fff;
   justify-content: space-around;
@@ -13,7 +13,7 @@
 .about-section {
   width: 40rem;
   border-radius: 0.5rem;
-  background: linear-gradient(to right top, #00cefb, #00f1b6);
+  background: linear-gradient(to right top, #054b5a, #00f1b6);
   padding: 3rem;
   display: flex;
   flex-direction: column;
@@ -31,7 +31,7 @@
 }
 
 .about-section:nth-child(2) {
-  background: linear-gradient(to right bottom, #00f1b6, #00cefb);
+  background: linear-gradient(to right top, #054b5a, #00f1b6);
   margin-left: 3rem;
 }
 
