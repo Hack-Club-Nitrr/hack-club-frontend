@@ -62,10 +62,11 @@ const Topnav = () => {
   }
 
   // data to be displayed on the nav bar
+  // to put links or create onclick functions, to just modify some data inside frames instead of reloading full website????
   let navbar_data = [ss([
-    ["Home", "#"],
-    ["About", "#"],
-    ["Contacts", "#"],
+    ["Home", "#main"],
+    ["About", "#team"],
+    ["Contacts", "#Contact"],
     ["Hakathons", "#"],
     ["News", "#"]
 ])]
