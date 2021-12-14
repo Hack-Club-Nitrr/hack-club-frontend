@@ -209,6 +209,7 @@
     opacity: 1;
     z-index: 99;
     display: none;
+    background: #ffffff00;
   }
   .wrap_out {
     position: fixed;
@@ -220,5 +221,20 @@
     transition: 0.8s ease-in-out;
     overflow: hidden;
     z-index: 98;
+  }
+  .snv{
+    display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      margin: 2%;
+      padding: 1% 1%;
+      border-radius: 50px;
+      width: 80%;
+      background: none;
+      box-shadow: none;
+  }
+  .wrap_in{
+    background: linear-gradient(rgba(2, 126, 126, 0.658), rgb(79, 61, 128));
   }
 }
