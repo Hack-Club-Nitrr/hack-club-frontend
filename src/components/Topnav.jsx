@@ -46,14 +46,14 @@ const Topnav = () => {
   };
   const ss =(str)=>{
     const arr= str.map(function(i){
-      let ist = Array.from(i)
+      let ist = Array.from(i[0])
       let grr = ist.map(function(j){
         return( 
-          <div className="letter">{j}</div>
+          <div className="letter" href="">{j}</div>
         )
       })
       return(
-        <div className="navlink">{grr}</div>
+        <div className="navlink"><a href={i[1]}>{grr}</a></div>
       )
     })
     return(
@@ -61,7 +61,14 @@ const Topnav = () => {
     )
   }
 
-  let arr = [ss(["Home","About","Contacts","Hakathons","News"])]
+  // data to be displayed on the nav bar
+  let navbar_data = [ss([
+    ["Home", "#"],
+    ["About", "#"],
+    ["Contacts", "#"],
+    ["Hakathons", "#"],
+    ["News", "#"]
+])]
   return (
     <div style={{ overflowX: "hidden" }}>
       <button
@@ -77,7 +84,7 @@ const Topnav = () => {
       </button>
       <div className="wrap_out">
         <div className="wrap_in"></div>
-        {arr}
+        {navbar_data}
         
       </div>
     </div>
