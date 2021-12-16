@@ -103,7 +103,7 @@ const Contact = () => {
           <form
             noValidate
             onSubmit={formik.handleSubmit}
-            autocomplete="off"
+            autoComplete="off"
             className="inner-form"
           >
             <h3 className="title">Contact us</h3>
