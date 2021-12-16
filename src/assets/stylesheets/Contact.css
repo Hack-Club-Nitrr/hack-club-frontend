@@ -89,7 +89,7 @@
 
 .input-container input::placeholder,
 .input-container textarea::placeholder {
-  color: #ffffff;
+  color: whitesmoke;
   opacity: 1;
 }
 
@@ -203,6 +203,20 @@ textarea.input {
   left: 50%;
   transform: translate(181%, 11%);
   opacity: 0.2;
+}
+
+.error {
+  font-size: 0.88rem;
+  color: red;
+  padding-top: 4px;
+  padding-left: 20px;
+  font-weight: 900;
+}
+
+.errorInput input,
+.errorInput textarea {
+  border: 2px solid #d30a0a;
+  box-shadow: 0 2px 4px red;
 }
 
 @media (max-width: 850px) {
