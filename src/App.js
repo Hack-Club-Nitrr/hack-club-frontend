@@ -12,7 +12,6 @@ const App = () => {
       <Main />
       <About />
       <Teams />
-      <Discord />
       <Footer />
     </div>
   );
