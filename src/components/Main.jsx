@@ -1,19 +1,57 @@
 import React from "react";
 import "../assets/stylesheets/main.css";
-import 'css-doodle';
+import "css-doodle";
 const Main = () => {
   return (
-    <div className="main-page" id = "main">
+    <div className="main-page" id="main">
+      <div className="doodle_wrap">
+        <css-doodle>
+          {`
+  :doodle {
+    @grid: 10 / 100%; 
+  }
+
+  background: @pick(
+    #F0C929, #F48B29,#AC0D0D, #fff
+  );
+
+  transform: translate(
+    @rand(-50vw, 50vw),
+    @rand(-50vh, 50vh)
+  );
+
+  @size: 0.5vmin;
+  @shape: circle;
+  @place-cell: 50% 50%;
+
+  animation-name: explosion;
+  animation-iteration-count: infinite;
+  animation-direction: reverse;
+  animation-duration: calc(@rand(4s, 10s, .1));
+  animation-delay: calc(@rand(-5s, -1s, .1));
+  animation-timing-function: 
+    cubic-bezier(.84, .02, 1, 1);
+
+  @keyframes explosion {
+    0% { opacity: 0; }
+    70% { opacity: 1; }
+    100% { transform: translate(0, 0); }
+  }`}
+        </css-doodle>
+      </div>
       <div className="title">
         <h1 className="hack">Hack Club</h1>
         <h5 className="nitrr">NITRR</h5>
         <br />
         <p className="about-main">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut  ut aliquip ex ea commodo consequat. Duis aute irure dolor ia qui officia deserunt mollit anim id est laborum.{" "}
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor ia qui officia
+          deserunt mollit anim id est laborum.{" "}
         </p>
       </div>
       <div className="doodle-container">
-      <css-doodle grid="200x1">{`
+        <css-doodle grid="200x1">{`
       	:doodle {
           @size: 55vmin;
           overflow: hidden;
@@ -62,7 +100,7 @@ const Main = () => {
           }
         }
     `}</css-doodle>
-    </div>
+      </div>
     </div>
   );
 };
