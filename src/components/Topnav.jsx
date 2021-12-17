@@ -42,6 +42,41 @@ const Topnav = () => {
       }, 500);
     }
   };
+  const ss = (str) => {
+    const arr = str.map(function (i) {
+      let ist = Array.from(i[0]);
+      let grr = ist.map(function (j) {
+        let key2 = Math.random() * 10000 + 1;
+        return (
+          <div className="letter" href="#" key={key2}>
+            {j}
+          </div>
+        );
+      });
+      return (
+        <div className="navlink" key={i[0]}>
+          <a href={i[1]}>{grr}</a>
+        </div>
+      );
+    });
+    return (
+      <div className="wrap_content">
+        <div className="snv">{arr}</div>
+      </div>
+    );
+  };
+
+  // data to be displayed on the nav bar
+  // to put links or create onclick functions, to just modify some data inside frames instead of reloading full website????
+  let navbar_data = [
+    ss([
+      ["Home", "#main"],
+      ["About", "#team"],
+      ["Contacts", "#Contact"],
+      ["Hakathons", "#"],
+      ["News", "#"],
+    ]),
+  ];
   return (
     <div style={{ overflowX: "hidden" }}>
       <button
@@ -57,47 +92,7 @@ const Topnav = () => {
       </button>
       <div className="wrap_out">
         <div className="wrap_in"></div>
-
-        <div className="wrap_content">
-          <div className="navlink">
-            <div className="letter">H</div>
-            <div className="letter">o</div>
-            <div className="letter">m</div>
-            <div className="letter">e</div>
-          </div>
-          <div className="navlink">
-            <div className="letter">A</div>
-            <div className="letter">b</div>
-            <div className="letter">o</div>
-            <div className="letter">u</div>
-            <div className="letter">t</div>
-          </div>
-          <div className="navlink">
-            <div className="letter">P</div>
-            <div className="letter">r</div>
-            <div className="letter">o</div>
-            <div className="letter">j</div>
-            <div className="letter">e</div>
-            <div className="letter">c</div>
-            <div className="letter">t</div>
-            <div className="letter">s</div>
-          </div>
-          <div className="navlink">
-            <div className="letter">C</div>
-            <div className="letter">o</div>
-            <div className="letter">n</div>
-            <div className="letter">t</div>
-            <div className="letter">a</div>
-            <div className="letter">c</div>
-            <div className="letter">t</div>
-          </div>
-          <div className="navlink">
-            <div className="letter">b</div>
-            <div className="letter">l</div>
-            <div className="letter">o</div>
-            <div className="letter">g</div>
-          </div>
-        </div>
+        {navbar_data}
       </div>
     </div>
   );

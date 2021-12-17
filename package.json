@@ -6,10 +6,18 @@
     "@testing-library/jest-dom": "^5.15.0",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
+<<<<<<< HEAD
     "css-doodle": "^0.23.0",
+=======
+    "axios": "^0.24.0",
+    "formik": "^2.2.9",
+    "helmet": "^4.6.0",
+>>>>>>> 4c632cc66c04bcdfaee92b737d8f5ac6dcaf15c2
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-helmet": "^6.1.0",
     "react-scripts": "^4.0.3",
+    "react-toastify": "^8.1.0",
     "web-vitals": "^1.1.2"
   },
   "scripts": {

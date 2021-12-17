@@ -1,11 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500;600;700&display=swap');
+
 .about {
   overflow-x: hidden;
   cursor: pointer;
   font-size: 30px;
   display: flex;
   padding: 3rem;
-  background: linear-gradient(to right top, #7b46ff, #6554ff);
-  font-family: Comfortaa;
+  background: linear-gradient(to bottom, #231e23, #e0deef);
+  font-family: 'Roboto Mono', monospace;
   color: #fff;
   justify-content: space-around;
 }
@@ -13,7 +15,7 @@
 .about-section {
   width: 40rem;
   border-radius: 0.5rem;
-  background: linear-gradient(to right top, #00cefb, #00f1b6);
+  background: linear-gradient(to right top, #054b5a, #00f1b6);
   padding: 3rem;
   display: flex;
   flex-direction: column;
@@ -31,7 +33,7 @@
 }
 
 .about-section:nth-child(2) {
-  background: linear-gradient(to right bottom, #00f1b6, #00cefb);
+  background: linear-gradient(to right top, #054b5a, #00f1b6);
   margin-left: 3rem;
 }
 
@@ -43,9 +45,15 @@
   transition: all 5s;
   border-right: 3px solid #fff;
   transform-origin: left;
-  animation: typewriter-anim 10s steps(20) infinite, blink 0.75s infinite;
 }
 
+.typewriter--1 {  
+  animation: typewriter-anim-1 10s steps(24) infinite, blink 0.75s infinite;
+}
+
+.typewriter--2 {
+  animation: typewriter-anim-2 10s steps(28) infinite, blink 0.75s infinite;
+}
 .about-problem {
   margin-bottom: 2rem;
 }
@@ -63,12 +71,21 @@
     border-right-color: #fff;
   }
 }
-@keyframes typewriter-anim {
+@keyframes typewriter-anim-1 {
   0% {
     width: 0;
   }
   100% {
     width: 80%;
+  }
+}
+
+@keyframes typewriter-anim-2 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 90%;
   }
 }
 
