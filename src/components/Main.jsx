@@ -1,7 +1,6 @@
 import React from "react";
 import "../assets/stylesheets/main.css";
-import Image from "../assets/image/web-development.png";
-
+import 'css-doodle';
 const Main = () => {
   return (
     <div className="main-page" id = "main">
@@ -13,7 +12,57 @@ const Main = () => {
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut  ut aliquip ex ea commodo consequat. Duis aute irure dolor ia qui officia deserunt mollit anim id est laborum.{" "}
         </p>
       </div>
-      <img className="title-img" src={Image} alt="intro" width="50%" />
+      <div className="doodle-container">
+      <css-doodle grid="200x1">{`
+      	:doodle {
+          @size: 55vmin;
+          overflow: hidden;
+        }
+        @size: 100%;
+        @place-cell: center;
+        
+        ::before{
+          content: "";
+          @size: @r(5%);
+          border: 1px solid orange;
+          background: @p(none, orange, linear-gradient(to @p(bottom, left), @stripe(black, white 1px, black, white 1px, black, white 1px, black, white 1px, black, white 1px, black)));
+          border-radius: @p(0, 50%);
+          position: absolute;
+          top: @r(100%);
+          left: @r(100%);
+          animation: floatingUpDown @r(1.5s, 5s) @r(1.5s) linear infinite alternate; 
+        }
+        
+        ::after {
+          content: "";
+          height: @r(0.5%);
+          width: @r(1.5%, 7%);
+          background: white;
+          position: absolute;
+          top: @r(100%);
+          left: @r(100%);
+          animation: floatingStickAnim @r(1.5s, 5s) @r(1.5s) linear infinite alternate; 
+          transform: translateX(300%);
+          transition: background 0.2s;
+        }
+        
+        :doodle(:hover)::after{
+          background: limegreen;
+        }
+        
+        @keyframes floatingUpDown {
+          100% {
+            transform: translateY(-50%) rotateZ(@r(-5deg, 5deg));
+          }
+        }
+        
+        @keyframes floatingStickAnim {
+          100% {
+            transform: translateX(-300%);
+          }
+        }
+    `}</css-doodle>
+    </div>
     </div>
   );
 };
