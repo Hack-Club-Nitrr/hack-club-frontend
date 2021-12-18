@@ -83,15 +83,15 @@ const Contact = () => {
           <div className="info">
             <div className="information">
               <img src={locationImage} className="icon" alt="" />
-              <p>42 Bakers street, London</p>
+              <p>Great Eastern Rd, Amanaka, Raipur, Chhattisgarh</p>
             </div>
             <div className="information">
               <img src={emailImage} className="icon" alt="" />
-              <p>GojoStoru@Soceror.com</p>
+              <p>aditya90005@gmail.com</p>
             </div>
             <div className="information">
               <img src={phoneImage} className="icon" alt="" />
-              <p>1729-42-314</p>
+              <p>7000629928</p>
             </div>
           </div>
         </div>

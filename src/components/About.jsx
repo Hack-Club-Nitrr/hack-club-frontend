@@ -1,7 +1,7 @@
 import "../assets/stylesheets/about.css";
 const About = () => {
   return (
-    <div className="about">
+    <div className="about" id="About">
       <div className="about-section">
         <h1 className="about-problem">
           <span className="typewriter typewriter--1">What is a Hack Club?</span>

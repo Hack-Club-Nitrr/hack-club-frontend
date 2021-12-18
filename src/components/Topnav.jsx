@@ -71,10 +71,9 @@ const Topnav = () => {
   let navbar_data = [
     ss([
       ["Home", "#main"],
-      ["About", "#team"],
+      ["About", "#About"],
+      ["Team", "#team"],
       ["Contacts", "#Contact"],
-      ["Hakathons", "#"],
-      ["News", "#"],
     ]),
   ];
   return (
