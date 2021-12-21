@@ -9,10 +9,13 @@ const Topnav = () => {
     var ele = document.querySelector(".wrap_out").style;
     var content = document.querySelector(".wrap_content").style;
     if (status === false) {
+      document.querySelector("#navlogo").style.display = "none";
       status = true;
       ele.width = "100%";
       content.display = "block";
     } else {
+      document.querySelector("#navlogo").style.display = "";
+
       ele.width = "0%";
       status = false;
     }
@@ -47,11 +50,13 @@ const Topnav = () => {
           src={icon}
           alt="icon"
           style={{
-            width: "40px",
+            height: "10vh",
             float: "left",
-            margin: "10px 20px",
+            padding: "10px 30px",
             zIndex: "100",
+            background: "#0f0e0fbb",
           }}
+          id="navlogo"
         />
         <div className="snv">{arr}</div>
       </div>
