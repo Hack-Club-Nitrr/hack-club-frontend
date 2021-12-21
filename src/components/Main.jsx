@@ -44,9 +44,7 @@ const Main = () => {
         <h5 className="nitrr">NITRR</h5>
         <br />
         <p className="about-main">
-          This is a community of young makers spanning across a broad spectrum. 
-            We create. We learn from creations. We help one another and have fun while at it. 
-            So hop aboard and become a part of the community!{" "}
+          The goal of Hack Club is to help you become a hacker. Being entirely student led, this provides you the space to learn and grow with the community.{" "}
         </p>
       </div>
       <div className="doodle-container">
