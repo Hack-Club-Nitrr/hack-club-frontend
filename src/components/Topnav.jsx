@@ -1,5 +1,6 @@
 import React from "react";
 import "../assets/stylesheets/topnav.css";
+import icon from "../assets/image/icon-rounded.png";
 
 const Topnav = () => {
   var status = false;
@@ -42,6 +43,16 @@ const Topnav = () => {
     });
     return (
       <div className="wrap_content">
+        <img
+          src={icon}
+          alt="icon"
+          style={{
+            width: "40px",
+            float: "left",
+            margin: "10px 20px",
+            zIndex: "100",
+          }}
+        />
         <div className="snv">{arr}</div>
       </div>
     );
@@ -70,8 +81,10 @@ const Topnav = () => {
         <div className="bar2"></div>
         <div className="bar3"></div>
       </button>
+
       <div className="wrap_out">
         <div className="wrap_in"></div>
+
         {navbar_data}
       </div>
     </div>

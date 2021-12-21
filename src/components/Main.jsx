@@ -1,6 +1,9 @@
 import React from "react";
 import "../assets/stylesheets/main.css";
 import "css-doodle";
+import icon from "../assets/image/icon-rounded.png";
+import flag from "../assets/image/flag-orpheus-top.svg";
+
 const Main = () => {
   return (
     <div className="main-page" id="main">
@@ -39,6 +42,9 @@ const Main = () => {
   }`}
         </css-doodle>
       </div>
+      <img src={icon} alt="icon" className="mainIcon" />
+      <img src={flag} alt="icon" className="flag" />
+
       <div className="title">
         <h1 className="hack">Hack Club</h1>
         <h5 className="nitrr">NITRR</h5>
