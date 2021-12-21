@@ -77,8 +77,7 @@ const Contact = () => {
         <div className="contact-info">
           <h3 className="contact-title">Let's get in touch</h3>
           <p className="text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
-            dolorum adipisci recusandae praesentium dicta!
+            Hack club NITRR is a non-profit organization which is entirely student led. This is a place for makers who come together to create an inclusive environment and community that strives continuously to learn,build and create.
           </p>
 
           <div className="info">
