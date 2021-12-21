@@ -44,10 +44,9 @@ const Main = () => {
         <h5 className="nitrr">NITRR</h5>
         <br />
         <p className="about-main">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor ia qui officia
-          deserunt mollit anim id est laborum.{" "}
+          This is a community of young makers spanning across a broad spectrum. 
+            We create. We learn from creations. We help one another and have fun while at it. 
+            So hop aboard and become a part of the community!{" "}
         </p>
       </div>
       <div className="doodle-container">
