@@ -145,6 +145,7 @@
   align-items: center;
   width: 100%;
   min-height: 10vh;
+  backdrop-filter: blur(10px);
 }
 
 .wrap_in {

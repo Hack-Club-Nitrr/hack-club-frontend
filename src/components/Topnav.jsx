@@ -55,6 +55,7 @@ const Topnav = () => {
             padding: "10px 30px",
             zIndex: "100",
             background: "#0f0e0fbb",
+            backdropFilter: "blur(10px)",
           }}
           id="navlogo"
         />
