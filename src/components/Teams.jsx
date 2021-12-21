@@ -60,30 +60,6 @@ const Teams = () => {
             <div className="team_desigination">{member[2]}</div>
           </div>
         </div>
-        // <div className="col-md-3" key={i}>
-        //   <div className="single-team">
-        //     <div className="team-img">
-        //       <img src={`https://gdurl.com${member[3]}`} alt="" />
-        //     </div>
-        //     <div className="team-content">
-        //       <div className="team-info">
-        //         <h3>{member[1]}</h3>
-        //         <p>{member[2]}</p>
-        //       </div>
-        //       <p className="team-icon">
-        //         <a target="_blank" href={member[4]} rel="noreferrer">
-        //           <i className="fa fa-instagram" aria-hidden="true"></i>
-        //         </a>
-        //         <a target="_blank" href={member[5]} rel="noreferrer">
-        //           <i className="fa fa-linkedin" aria-hidden="true"></i>
-        //         </a>
-        //         <a target="_blank" href={member[6]} rel="noreferrer">
-        //           <i className="fa fa-envelope-o" aria-hidden="true"></i>
-        //         </a>
-        //       </p>
-        //     </div>
-        //   </div>
-        // </div>
       );
     });
     return Team;
@@ -92,6 +68,8 @@ const Teams = () => {
   return (
     <>
       <div className="team-area" id="team">
+        <br />
+        <br />
         <div className="container team_wrap blob">
           <div className="team-heading">
             <h1>Team Members</h1>

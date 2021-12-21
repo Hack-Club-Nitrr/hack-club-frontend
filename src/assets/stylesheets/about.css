@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500;600;700&display=swap");
 
 .about {
   overflow-x: hidden;
@@ -6,8 +6,8 @@
   font-size: 30px;
   display: flex;
   padding: 3rem;
-  background: linear-gradient(to bottom, #231e23, #e0deef);
-  font-family: 'Roboto Mono', monospace;
+  background: linear-gradient(to bottom, #0f0e0f, #00b9f179, #0f0e0f);
+  font-family: "Roboto Mono", monospace;
   color: #fff;
   justify-content: space-around;
 }
@@ -15,7 +15,7 @@
 .about-section {
   width: 40rem;
   border-radius: 0.5rem;
-  background: linear-gradient(to right top, #054b5a, #00f1b6);
+  background: linear-gradient(to right top, #3f055a, #f100f1);
   padding: 3rem;
   display: flex;
   flex-direction: column;
@@ -33,7 +33,7 @@
 }
 
 .about-section:nth-child(2) {
-  background: linear-gradient(to right top, #054b5a, #00f1b6);
+  background: linear-gradient(to right top, #34055a, #00f1b6);
   margin-left: 3rem;
 }
 
@@ -47,7 +47,7 @@
   transform-origin: left;
 }
 
-.typewriter--1 {  
+.typewriter--1 {
   animation: typewriter-anim-1 10s steps(24) infinite, blink 0.75s infinite;
 }
 
@@ -122,10 +122,6 @@
   .about-section:nth-child(2) {
     margin-left: unset;
     margin-top: 2rem;
-    background: linear-gradient(0deg, #00cefb, #00f1b6);
-  }
-  .about-section:nth-child(1) {
-    background: linear-gradient(180deg, #00cefb, #00f1b6);
   }
 }
 

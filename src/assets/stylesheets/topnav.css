@@ -7,7 +7,7 @@
   width: 0%;
   height: 100%;
   background: linear-gradient(45deg, rgb(0, 69, 87), rgba(67, 0, 88, 0.479));
-  transition: 0.8s ease-in-out;
+  transition: 0.4s ease-in-out;
   overflow: hidden;
   z-index: 98;
 }
@@ -21,7 +21,7 @@
   background: linear-gradient(rgba(2, 126, 126, 0.658), rgb(79, 61, 128));
   overflow: hidden;
   border-radius: 50%;
-  transition: 0.5s ease-in-out;
+  transition: 0.2s ease-in-out;
   color: white;
 }
 
@@ -147,7 +147,7 @@
 }
 
 .snv {
-  background: #00000054;
+  background: #0f0e0fbb;
   display: flex;
   flex-direction: row;
   justify-content: center;

@@ -139,7 +139,7 @@
   transform: scale(0);
   width: 40px;
   height: 40px;
-  background: rgb(255, 94, 0);
+  background: rgb(137, 34, 255);
   color: white;
   z-index: 100;
   border-radius: 20px;
@@ -174,11 +174,12 @@
   margin: 0px auto;
   background-size: cover;
   background-position: center;
+  cursor: pointer;
 }
 
 .team_img_wrap_outer:hover {
-  border: 8px solid rgb(255, 94, 0);
-  box-shadow: 0 0 10px rgb(255, 94, 0), 0 0 13px rgb(255, 94, 0);
+  border: 8px solid #7700ff;
+  box-shadow: 0 0 10px #7700ff, 0 0 13px #7700ff;
 }
 
 .team_img_wrap_outer:hover .team_social {
@@ -188,7 +189,7 @@
 .team_social:hover {
   background: rgb(255, 255, 255);
   color: rgb(0, 0, 0) !important;
-  border: 3px solid rgb(255, 94, 0);
+  border: 3px solid #3f055a;
 }
 
 .team_name {

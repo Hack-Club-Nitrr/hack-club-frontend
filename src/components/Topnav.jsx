@@ -18,12 +18,12 @@ const Topnav = () => {
         wrapin.width = "300%";
         wrapin.top = "-150%";
         wrapin.right = "-150%";
-      }, 800);
+      }, 400);
       setTimeout(function () {
         for (var i = 0; i < 5; i++) {
           links[i].style.marginLeft = "0%";
         }
-      }, 1300);
+      }, 650);
     } else {
       status = false;
       for (var i = 0; i < 5; i++) {
@@ -36,7 +36,7 @@ const Topnav = () => {
       wrapin.right = "0%";
       setTimeout(function () {
         content.display = "none";
-      }, 700);
+      }, 30);
       setTimeout(function () {
         ele.width = "0%";
       }, 500);

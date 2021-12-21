@@ -9,9 +9,9 @@
 .contact-container {
   position: relative;
   width: 100%;
-  min-height: 100vh;
+  min-height: 110vh;
   padding: 2rem;
-  background-color: #000000e1;
+  background-color: #0f0e0f;
   font-family: "Comfortaa", sans-serif !important;
   overflow: hidden;
   display: flex;

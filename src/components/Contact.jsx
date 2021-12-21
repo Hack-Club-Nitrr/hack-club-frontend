@@ -70,6 +70,7 @@ const Contact = () => {
 
   return (
     <div className="contact-container" id="Contact">
+      <br />
       <span className="big-circle"></span>
       <img src={shapeImage} className="square" alt="" />
       <div className="form">

@@ -15,7 +15,9 @@ const About = () => {
       </div>
       <div className="about-section">
         <h1 className="about-problem">
-          <span className="typewriter typewriter--2">We at Hack Club NITRR! 🚀</span>
+          <span className="typewriter typewriter--2">
+            We at Hack Club NITRR! 🚀
+          </span>
         </h1>
         <p className="about-statement">
           Hack Club NITRR is a community where students from different branches
