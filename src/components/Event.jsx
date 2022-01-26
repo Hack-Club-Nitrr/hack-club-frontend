@@ -9,8 +9,6 @@ const Event = () => {
         <Zoom triggerOnce>
           <div className="vedio">
             <iframe
-              width="560"
-              height="315"
               src="https://www.youtube.com/embed/jdhUHTY43CA"
               title="YouTube video player"
               frameBorder="0"

@@ -47,6 +47,10 @@
   font-family: "Comfortaa";
   padding: 5px;
 }
+.vedio iframe {
+  width: 560px;
+  height: 350px;
+}
 
 @media screen and (max-width: 1220px) {
   .eventContainer {
@@ -60,5 +64,11 @@
   }
   .Event {
     padding-bottom: 30px;
+  }
+}
+@media screen and (max-width: 580px) {
+  .vedio iframe {
+    width: 90vw;
+    margin : 0 auto;
   }
 }
